@@ -592,8 +592,42 @@ video {
   }
 }
 
+.flex {
+  display: flex;
+}
+
 .grid {
   display: grid;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-\[\#4979ff\] {
+  --tw-text-opacity: 1;
+  color: rgb(73 121 255 / var(--tw-text-opacity));
+}
+
+.no-underline {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 
 html,
